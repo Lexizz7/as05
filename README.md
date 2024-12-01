@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LINK PARA A APLICAÇÃO EM FUNCIONAMENTO
 
-## Getting Started
+[https://as05-tau.vercel.app/](https://as05-tau.vercel.app/)
 
-First, run the development server:
+# Como Rodar
+
+Este README vai te guiar pelo processo de configuração e execução do projeto local.
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter o seguinte instalado:
+
+1. **Node.js**: O Next.js é um framework React que depende do Node.js. Você pode instalar o Node.js a partir do [site oficial](https://nodejs.org/).
+
+2. **npm**: O Next.js usa o npm ou o yarn para gerenciar pacotes. O npm já vem instalado com o Node.js.
+
+### Verificar se as dependências estão instaladas
+
+Para verificar se o Node.js e o npm estão instalados corretamente, execute os seguintes comandos no terminal:
+
+```bash
+node -v
+npm -v
+```
+
+## 2. Instalando as dependências
+
+Navegue até o diretório do projeto:
+
+```bash
+cd nome-da-pasta
+```
+
+Agora, instale as dependências do projeto:
+
+- Se estiver usando **npm**, execute:
+
+```bash
+npm install
+```
+
+Este comando vai instalar todas as dependências listadas no arquivo `package.json`.
+
+## 3. Rodando o servidor de desenvolvimento
+
+Após instalar as dependências, você pode rodar o servidor de desenvolvimento para ver o projeto em funcionamento localmente.
+
+- Para rodar o servidor com **npm**, execute:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso irá iniciar o servidor localmente. O terminal mostrará uma mensagem como a seguinte:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+Local: http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Agora, abra o navegador e acesse `http://localhost:3000` para ver o projeto em execução.
 
-## Learn More
+## 6. Parar o servidor
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para parar o servidor de desenvolvimento, basta pressionar `Ctrl + C` no terminal onde o servidor está rodando.

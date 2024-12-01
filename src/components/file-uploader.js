@@ -42,7 +42,7 @@ export default function FileUploader({ onUpload }) {
 
   return (
     <div className="rounded-md p-4 max-w-md w-full bg-gray-100 border border-gray-300 flex flex-col items-center space-y-4">
-      <h2 className="text-xl font-bold">Envie arquivos ao Pinecone</h2>
+      <h2 className="text-xl font-bold">Envie arquivos</h2>
 
       <input
         type="file"

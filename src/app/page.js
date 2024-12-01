@@ -19,6 +19,19 @@ export default function Home() {
       <AskCard />
 
       <ListRecords key={updateNumber} />
+
+      <footer className="text-center mt-8 text-sm text-gray-600">
+        Este é um projeto para a PUC Minas, desenvolvido por Edmar Melandes.{" "}
+        <a
+          href="https://github.com/Lexizz7/as05"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          Acesse o GitHub
+        </a>
+        .
+      </footer>
     </main>
   );
 }
